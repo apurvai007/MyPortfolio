@@ -1,0 +1,17 @@
+/* expCard.module.css */
+.expCard {
+    background-color: #3498db; /* Original background color */
+    color: #fff; /* Original text color */
+    border-radius: 10px; /* Original rounded edges */
+    padding: 20px; /* Original padding */
+    transition: transform 0.3s ease-in-out; /* Apply transition for transform */
+  }
+  
+  .expCard:hover {
+    transform: scale(1.03); /* Scale up the card slightly on hover */
+  }
+  
+  .hovered .text-xs {
+    font-size: 16px; /* Example: Change font size for "Some other content" */
+  }
+  
