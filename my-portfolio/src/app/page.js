@@ -3,7 +3,14 @@ import Image from "next/image";
 import Head from "next/head";
 
 import { motion } from "framer-motion";
-import { AboutCard, BirthdayCard, EmailCard ,GithubCard ,LinkedinCard } from "@/components";
+import {
+  AboutCard,
+  BirthdayCard,
+  EmailCard,
+  GithubCard,
+  LinkedinCard,
+  ExpCard,
+} from "@/components";
 
 export default function Home() {
   return (
@@ -17,8 +24,9 @@ export default function Home() {
       >
         <div className="grid grid-cols-3 gap-2 md:grid-cols-4 md:gap-4 my-5 container mx-auto xl:px-20">
           <AboutCard />
+          <ExpCard />
           <BirthdayCard />
-          <EmailCard/>
+          <EmailCard />
           <GithubCard />
           <LinkedinCard />
           {/* <ThemeCard />
