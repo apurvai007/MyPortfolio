@@ -31,12 +31,12 @@ export default function ExpCard() {
               href="https://www.linkedin.com/company/cimpress-india"
               target="_blank"
               rel="noopener noreferrer"
-              className="relative inline-block"
+              className="w-16 md:w-32 relative"
             >
               <Image
                 src={cimpress}
                 alt="Cimpress (company logo)"
-                className="object-cover w-full h-auto transform scale-150 md:hidden" 
+                className="object-cover w-full h-auto transform scale-150"
               />
               <MdOpenInNew className="absolute top-0 right-0 mt-1 mr-4 md:mt-2 md:mr-4 text-xl text-white dark:text-[#ffffffaa]" />
             </a>
