@@ -13,7 +13,7 @@ export default function ExpCard() {
       <div className="">
         <div className="flex justify-center items-center flex-col">
           <p className="text-4xl md:text-8xl font-bold">
-            <CountUp isCounting end={getExp()} duration={3} />+
+            <CountUp isCounting end={getExp()} duration={6} />+
           </p>
           <p className="text-xs md:text-xl uppercase font-semibold text-center">
             Years of
