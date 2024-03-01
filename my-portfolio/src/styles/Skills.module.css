@@ -25,4 +25,19 @@
 
 .skill:hover .name {
   opacity: 1; /* Show the name when hovered */
+  font-family: 'Arial', sans-serif; /* Specify the desired font */
+  font-size: 12px; /* Adjust font size as needed */
+  text-align: center; /* Center the text */
+  text-transform: uppercase; /* Uppercase text */
+  font-weight: 600; /* Semi-bold font weight */
+}
+
+.skills {
+  transition: opacity 0.3s ease; /* Add transition for smooth fade-in effect */
+  opacity: 1; /* Initially visible */
+}
+
+/* Apply fade effect on "SKILLS" text when icons are hovered over */
+.grid:hover .skills {
+  opacity: 0; /* Hide when icons are hovered */
 }
