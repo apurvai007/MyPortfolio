@@ -10,6 +10,7 @@ import {
   GithubCard,
   LinkedinCard,
   ExpCard,
+  Skills
 } from "@/components";
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
         <div className="grid grid-cols-3 gap-2 md:grid-cols-4 md:gap-4 my-5 container mx-auto xl:px-20">
           <AboutCard />
           <ExpCard />
+          <Skills />
           <BirthdayCard />
           <EmailCard />
           <GithubCard />
@@ -35,7 +37,7 @@ export default function Home() {
           <ProjectsCard />
           <ExpCard />
           
-          <Skills />
+          
   
           <EmailCard />
           <TwitterCard /> */}

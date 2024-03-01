@@ -4,6 +4,7 @@ import EmailCard from "./EmailCard";
 import GithubCard from "./GithubCard";
 import LinkedinCard from "./LinkedinCard";
 import ExpCard from "./ExpCard";
+import Skills from "./Skills";
 
 export {
     AboutCard,
@@ -11,5 +12,6 @@ export {
     EmailCard,
     GithubCard,
     LinkedinCard,
-    ExpCard
+    ExpCard,
+    Skills
 };

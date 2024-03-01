@@ -1,0 +1,28 @@
+/* skills.module.css */
+.skill {
+  position: relative;
+}
+
+.skill .icon {
+  transition: transform 0.3s ease; /* Add transition for smooth animation */
+}
+
+.skill:hover .icon {
+  transform: scale(1.2); /* Zoom in effect */
+}
+
+.name {
+  position: absolute;
+  top: -30px; /* Adjust the distance above the icons */
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Arial', sans-serif; /* Replace with your desired font */
+  font-size: 16px; /* Adjust font size as needed */
+  opacity: 0; /* Initially hide the name */
+  pointer-events: none; /* Make sure the name does not interfere with hover */
+  transition: opacity 0.3s ease; /* Add transition for smooth fade-in effect */
+}
+
+.skill:hover .name {
+  opacity: 1; /* Show the name when hovered */
+}
