@@ -3,7 +3,7 @@ import Image from "next/image";
 import Head from "next/head";
 
 import { motion } from "framer-motion";
-import { AboutCard, BirthdayCard, EmailCard ,GithubCard } from "@/components";
+import { AboutCard, BirthdayCard, EmailCard ,GithubCard ,LinkedinCard } from "@/components";
 
 export default function Home() {
   return (
@@ -20,6 +20,7 @@ export default function Home() {
           <BirthdayCard />
           <EmailCard/>
           <GithubCard />
+          <LinkedinCard />
           {/* <ThemeCard />
           <BirthdayCard />
           <LinkedinCard />
