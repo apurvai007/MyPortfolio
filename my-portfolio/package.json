@@ -12,7 +12,9 @@
     "framer-motion": "^10.18.0",
     "next": "^13.3.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "moment": "^2.29.4",
+    "use-count-up": "^3.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",

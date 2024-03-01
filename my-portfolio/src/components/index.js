@@ -1,5 +1,7 @@
 import AboutCard from "./AboutCart";
+import BirthdayCard from "./BirthdayCard";
 
 export {
-    AboutCard
+    AboutCard,
+    BirthdayCard
 };
