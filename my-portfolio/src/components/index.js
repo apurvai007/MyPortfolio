@@ -8,7 +8,7 @@ import Skills from "./Skills";
 
 export {
     AboutCard,
-    BirthdayCard,
+    // BirthdayCard,
     EmailCard,
     GithubCard,
     LinkedinCard,
