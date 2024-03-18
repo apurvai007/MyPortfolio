@@ -24,7 +24,7 @@ export default function AboutCard() {
         </h1>
         <p className="text-md md:text-lg lg:text-2xl text-white">
           I am a <b>Software Engineer</b> with experience in <b>Dotnet/C#</b>.
-          I'm proficient in <b>Backend development with C#</b> and{" "}
+          {"I'm"} proficient in <b>Backend development with C#</b> and{" "}
           <b>Web APIs</b>, and have also worked with a bit of{" "}
           <b>React/JavaScript</b>. I love learning new things and experimenting
           with new technologies. I have a good eye for details and I always put
