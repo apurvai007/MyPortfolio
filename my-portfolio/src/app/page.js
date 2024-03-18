@@ -27,20 +27,9 @@ export default function Home() {
           <AboutCard />
           <ExpCard />
           <Skills />
-          {/* <BirthdayCard /> */}
           <EmailCard />
           <GithubCard />
           <LinkedinCard />
-          {/* <ThemeCard />
-          <BirthdayCard />
-          <LinkedinCard />
-          <ProjectsCard />
-          <ExpCard />
-          
-          
-  
-          <EmailCard />
-          <TwitterCard /> */}
         </div>
       </motion.div>
     </>
