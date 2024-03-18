@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "@/styles/AboutCard.module.css"
+import styles from "@/styles/AboutCard.module.css";
 import Image from "next/image";
 import me from "@/assets/images/me3.png";
 
@@ -23,11 +23,12 @@ export default function AboutCard() {
           👋 {"Hi, I'm"} Apurva Mathur
         </h1>
         <p className="text-md md:text-lg lg:text-2xl text-white">
-            I am a <b>Software Engineer </b> with experience in <b>Dotnet/C#</b>
-            . I&apos;m good at <b>Backend developent with C#</b> and{" "}
-            <b>Web APIs</b>, as well as <b>JavaScript</b>. I love learning new
-            things and experimenting with new technologies. I have a good eye
-            for details and I always put my all into my work.
+          I am a <b>Software Engineer</b> with experience in <b>Dotnet/C#</b>.
+          I'm proficient in <b>Backend development with C#</b> and{" "}
+          <b>Web APIs</b>, and have also worked with a bit of{" "}
+          <b>React/JavaScript</b>. I love learning new things and experimenting
+          with new technologies. I have a good eye for details and I always put
+          my all into my work.
         </p>
       </div>
     </div>

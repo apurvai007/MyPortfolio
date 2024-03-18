@@ -27,7 +27,7 @@ export default function Home() {
           <AboutCard />
           <ExpCard />
           <Skills />
-          <BirthdayCard />
+          {/* <BirthdayCard /> */}
           <EmailCard />
           <GithubCard />
           <LinkedinCard />
