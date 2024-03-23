@@ -10,7 +10,8 @@ import {
   GithubCard,
   LinkedinCard,
   ExpCard,
-  Skills
+  Skills,
+  DownloadResume,
 } from "@/components";
 
 export default function Home() {
@@ -30,6 +31,7 @@ export default function Home() {
           <EmailCard />
           <GithubCard />
           <LinkedinCard />
+          <DownloadResume />
         </div>
       </motion.div>
     </>
