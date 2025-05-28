@@ -7,7 +7,7 @@ import { FaGoogleDrive } from "react-icons/fa";
 export default function DownloadResume() {
   return (
     <a
-      href="https://drive.google.com/file/d/16mal2QpH9j8wqFbUPZoIwLl91LM9PEyJ/view?usp=sharing"
+      href="https://drive.google.com/file/d/1-P9ah3Q0O0hQtP4Ob4drbW6uH0ds0GtP/view?usp=sharing"
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Resume"
